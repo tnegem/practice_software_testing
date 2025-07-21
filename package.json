@@ -1,0 +1,17 @@
+{
+  "name": "cypress-practice-testing",
+  "scripts": {
+  "cypress_open": "cypress open",
+  "cypress_run": "cypress run",
+  "cypress_open_e2e": "cypress open --e2e -b chrome",
+  "cypress_run_e2e": "cypress run --spec 'cypress/e2e/*.cy.js'",
+  "cypress_run_chrome": "cypress run --spec 'cypress/e2e/*.cy.js' --browser chrome",
+  "cypress_run_firefox": "cypress run --spec 'cypress/e2e/*.cy.js' --browser firefox",
+  "cypress_run_edge": "cypress run --spec 'cypress/e2e/*.cy.js' --browser edge"
+  },
+  "devDependencies": {
+  "cypress": "^14.5.2",
+  "@faker-js/faker": "^9.9.0"
+  }
+
+}
